@@ -118,3 +118,7 @@ footer form {
  nav li {
    width: 100%;
  }
+
+  @media (max-width: 450px) {
+    .article {margin: 1rem;}
+  }
