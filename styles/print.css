@@ -1,0 +1,17 @@
+nav, footer, video {
+  display: none;
+}
+
+a:after {
+  content: "(" attr(href) ")";
+  font-size: 80%;
+}
+
+/*  gets rid of white space on the side. Looks good on web page but when you print it, we don't care for it. */
+.container, article {
+  width: 100%;
+}
+
+.print-only {
+  display: initial;
+}
