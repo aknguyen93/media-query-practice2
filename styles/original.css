@@ -107,3 +107,14 @@ footer form {
 .print-only {
   display: none;
 }
+
+@media (max-width: 600px) {
+ nav, nav ul, nav li {  
+ flex-direction: column;
+ }  
+}
+
+@media (max-width: 600px) {
+ nav li {
+   width: 100%;
+ }
