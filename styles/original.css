@@ -119,6 +119,7 @@ footer form {
    width: 100%;
  }
 
-  @media (max-width: 450px) {
-    .article {margin: 1rem;}
+@media (max-width: 450px) {
+  .article {
+    margin: 0.5rem;}
   }
